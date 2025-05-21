@@ -1,89 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My CV</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
-        .container {
-            width: 80%;
-            margin: auto;
-            overflow: hidden;
-        }
-        header {
-            background: #333;
-            color: #fff;
-            padding-top: 30px;
-            min-height: 70px;
-            border-bottom: #77aaff 3px solid;
-        }
-        header a {
-            color: #fff;
-            text-decoration: none;
-            text-transform: uppercase;
-            font-size: 16px;
-        }
-        header ul {
-            padding: 0;
-            list-style: none;
-        }
-        header li {
-            display: inline;
-            padding: 0 20px 0 20px;
-        }
-        .main {
-            padding: 20px;
-            background: #fff;
-            margin-top: 20px;
-        }
-        .section {
-            margin-bottom: 20px;
-        }
-        .section h2 {
-            border-bottom: 2px solid #77aaff;
-            padding-bottom: 10px;
-        }
-        .section p {
-            margin: 0;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Preshanti Padayachee - CV</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+
+    header {
+      background-color: #1e2a38;
+      color: #ffffff;
+      padding: 20px 0;
+      border-bottom: 4px solid #3498db;
+    }
+
+    header .container {
+      width: 90%;
+      max-width: 1100px;
+      margin: auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 28px;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      gap: 20px;
+    }
+
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-weight: 500;
+      font-size: 14px;
+    }
+
+    .main {
+      background-color: #fff;
+      max-width: 1000px;
+      margin: 30px auto;
+      padding: 40px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    }
+
+    .main h1 {
+      text-align: center;
+      margin-bottom: 40px;
+      color: #222;
+    }
+
+    h2 {
+      color: #2c3e50;
+      margin-top: 40px;
+    }
+
+    h3 {
+      margin: 5px 0 15px 0;
+      font-weight: normal;
+      color: #555;
+    }
+
+    ul {
+      margin: 0 0 20px 20px;
+      padding: 0;
+    }
+
+    ul li {
+      line-height: 1.6;
+    }
+
+    hr {
+      border: 0;
+      height: 1px;
+      background: #ddd;
+      margin: 40px 0;
+    }
+
+    @media (max-width: 600px) {
+      header .container {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      nav ul {
+        flex-direction: column;
+        gap: 10px;
+      }
+    }
+  </style>
 </head>
 <body>
-    <header>
-        <div class="container">
-            <h1>Preshanti Padayachee</h1>
-            <ul>
-                <li><a href="index.html">Profile</a></li>
-                <li><a href="Experience.html">Experience</a></li>
-                <li><a href="Education.html">Education</a></li>
-                <li><a href="Skills.html">Skills</a></li>
-                <li><a href="Contact.html">Contact</a></li>
-            </ul>
-        </div>
-    </header>
-    <div class="container main">
-        <section id="profile" class="section">
+
+<header>
+  <div class="container">
+    <h1>Preshanti Padayachee</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Profile</a></li>
+        <li><a href="Experience.html">Experience</a></li>
+        <li><a href="Education.html">Education</a></li>
+        <li><a href="Skills.html">Skills</a></li>
+        <li><a href="Contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<div class="main" id="experience">
+<section id="profile" class="section">
             <h2>Profile</h2>
             <p>Accomplished Group Finance Manager in the Global Environment. Previously managed £7.3m in Income across 5 International Locations at Actionaid International and $6m across 4 International Locations at CLEAR Global. Performance, deadline, and objective driven individual with a skillset to ensure efficiency in processes and intuitive problem-solving capabilities. Communication and interpersonal skills to form and develop long lasting relationships with colleagues spanning location and titles. </p>
         </section>
 
-        <section id="skills" class="section">
-            <h2>Skills</h2>
-            <p>Computer literacy in Microsoft Office, Google Suite, CaseWare, Pastel, Sage 100, QuickBooks Online, Internet Explorer, Office 365, Enterprise, 3E, Standard Bank Business online ( local and international),SUN, Vision XL, BI Q&A; Standard Chartered, FNB Online, HSBC Online, PayPal, Bank of America, Citizens, Western Union, Wise,  INTL, TM1. HubSpot, Asana, Zoom, Teams SARS Efiling/Ufiling.</p>
-        </section>
+     
         <section id="contact" class="section">
             <h2>Contact</h2>
             <p>Email: shanti3.pillay@gmail.com</p>
             <p>Phone: +27 84 799 9304</p>
             <p>www.linkedin.com/in/preshanti-padayachee/</p>
         </section>
-    </div>
 </body>
 </html>
-
